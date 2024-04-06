@@ -106,16 +106,6 @@ func deleteTask(w http.ResponseWriter, r *http.Request) {
 	}
 	delete(tasks, id)
 
-	/*	resp, err := json.Marshal(task)
-		if err != nil {
-			http.Error(w, err.Error(), http.StatusBadRequest)
-			return
-		}
-
-		w.Header().Set("Content-Type", "application/json")
-		w.WriteHeader(http.StatusOK)
-		w.Write(resp) */
-
 }
 
 func main() {

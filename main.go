@@ -1,4 +1,4 @@
-/*package main
+package main
 
 import (
 	"bytes"
@@ -131,4 +131,3 @@ func main() {
 		return
 	}
 }
-*/
